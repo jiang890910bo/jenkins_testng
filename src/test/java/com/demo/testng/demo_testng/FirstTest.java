@@ -18,8 +18,8 @@ public class FirstTest extends AbstractTestNGSpringContextTests {
         Assert.assertEquals(0, 1-1);
     }
 
-    @Test
-    public void exceptionTest(){
-        Assert.assertEquals(0, 1/0);
-    }
+//    @Test
+//    public void exceptionTest(){
+//        Assert.assertEquals(0, 1/0);
+//    }
 }
